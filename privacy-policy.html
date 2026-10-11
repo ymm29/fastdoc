@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>FastDoc — Politique de confidentialité / Privacy policy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<p><a href="./">FastDoc</a></p>
+<section lang="fr"><h1>Politique de confidentialité — FastDoc et FastDoc Pro</h1>
+<p><em>Dernière mise à jour : 11 octobre 2026</em> · <a href="#en">English version</a></p>
+<p>Cette politique s'applique aux applications Android <strong>FastDoc</strong> (<code>ovh.mnz.fastdoc</code>) et
+<strong>FastDoc Pro</strong> (<code>ovh.mnz.fastdoc.pro</code>), éditées par leur développeur (contact : apps@mnz.ovh), ci-après « nous ».</p>
+<h2>En résumé</h2>
+<ul>
+<li>FastDoc <strong>ne collecte aucune donnée personnelle</strong> : nous ne recevons, ne stockons et ne
+  partageons aucune information vous concernant.</li>
+<li>Tout ce que l'application enregistre reste <strong>sur votre appareil</strong>, dans son stockage privé, et
+  la plupart des données sont <strong>chiffrées</strong>.</li>
+<li>L'application ne contient <strong>aucune publicité, aucun outil de statistiques, aucun outil de
+  suivi</strong> et aucun service tiers de rapport de plantage.</li>
+</ul>
+<h2>1. Données enregistrées sur votre appareil</h2>
+<p>Pour fonctionner, l'application conserve les éléments suivants <strong>uniquement sur votre appareil</strong> :</p>
+<table>
+<thead>
+<tr>
+<th>Donnée</th>
+<th>Utilité</th>
+<th>Protection</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Liens de partage que vous ajoutez (adresse, nom, options)</td>
+<td>Afficher vos dossiers</td>
+<td>Chiffrés avec une clé conservée dans le composant de sécurité de l'appareil (Android Keystore)</td>
+</tr>
+<tr>
+<td>Mots de passe des liens protégés (Pro)</td>
+<td>Ouvrir ces liens</td>
+<td>Chiffrés de la même façon</td>
+</tr>
+<tr>
+<td>Documents téléchargés depuis vos partages</td>
+<td>Les rouvrir rapidement, et hors ligne (Pro)</td>
+<td>Stockage privé de l'application ; chiffrés pour les liens où l'option « Chiffrer les documents » est activée (Pro)</td>
+</tr>
+<tr>
+<td>Codes-barres et codes de sécurité lus dans vos bons d'achat, montant restant, état « archivé »</td>
+<td>Accès rapide en caisse (mode bons d'achat)</td>
+<td>Chiffrés avec la même clé ; la lecture se fait sur l'appareil, sans envoi en ligne</td>
+</tr>
+<tr>
+<td>Réglages (verrouillage, dernier texte de filigrane)</td>
+<td>Mémoriser vos préférences</td>
+<td>Stockage privé de l'application</td>
+</tr>
+</tbody>
+</table>
+<p>Aucune de ces données ne nous est transmise. Elles sont <strong>exclues des sauvegardes</strong> Android dans
+le cloud et des transferts vers un nouvel appareil.</p>
+<h2>2. Connexions réseau</h2>
+<p>L'application se connecte <strong>uniquement</strong> au service de stockage correspondant aux liens que vous
+avez ajoutés (par exemple kDrive d'Infomaniak ou pCloud), et uniquement pour lire le contenu de ces
+partages. Toutes les connexions sont chiffrées (HTTPS uniquement).</p>
+<p>Comme pour toute connexion à Internet, ce service reçoit l'adresse IP de votre appareil ainsi que
+le nom et la version de l'application. Le traitement de ces informations relève de la politique de
+confidentialité de ce service :</p>
+<ul>
+<li>Infomaniak (kDrive) : politique de confidentialité publiée sur www.infomaniak.com</li>
+<li>pCloud : politique de confidentialité publiée sur www.pcloud.com</li>
+</ul>
+<p>Nous n'avons aucun serveur : aucune connexion n'est faite vers nous.</p>
+<h2>3. Biométrie (FastDoc Pro)</h2>
+<p>Le verrouillage par empreinte, visage ou code utilise le système d'authentification d'Android.
+L'application ne reçoit que le résultat (réussi ou non) : <strong>elle n'a jamais accès à vos données
+biométriques</strong>, qui ne quittent pas le composant sécurisé de l'appareil.</p>
+<h2>4. Partage et enregistrement de copies</h2>
+<p>Un document ne sort de l'application que lorsque <strong>vous</strong> choisissez « Partager » ou « Enregistrer
+sur l'appareil ». Il est alors remis à l'application ou à l'emplacement que vous sélectionnez, dont
+les règles de confidentialité s'appliquent. Les copies temporaires créées pour un partage sont
+effacées au lancement suivant de l'application.</p>
+<p>De même, un <strong>fichier de configuration</strong> (<code>.fastdoc</code>) n'est créé que si vous choisissez « Partager
+la configuration ». Il contient les liens que vous sélectionnez et, si vous le décidez, leurs mots
+de passe et les données de vos bons d'achat. Il est chiffré ; avec un mot de passe, seules les
+personnes qui le connaissent peuvent l'ouvrir. Il ne transite jamais par nos serveurs (nous n'en
+avons pas) : c'est vous qui l'envoyez, par le moyen de votre choix.</p>
+<h2>5. Autorisations Android</h2>
+<table>
+<thead>
+<tr>
+<th>Autorisation</th>
+<th>Utilité</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Accès à Internet, état du réseau</td>
+<td>Lire vos partages ; lancer la synchronisation hors ligne seulement quand le réseau est disponible</td>
+</tr>
+<tr>
+<td>Biométrie (Pro)</td>
+<td>Verrouillage de l'application</td>
+</tr>
+<tr>
+<td>Exécution en arrière-plan, démarrage de l'appareil (ajoutées par la bibliothèque WorkManager)</td>
+<td>Tenir à jour les dossiers « Disponible hors ligne » (Pro)</td>
+</tr>
+</tbody>
+</table>
+<p>L'application n'accède ni à vos contacts, ni à votre position, ni à votre appareil photo, ni à
+votre micro, ni à vos fichiers personnels.</p>
+<h2>6. Google Play</h2>
+<p>Le téléchargement de l'application et l'achat de FastDoc Pro passent par Google Play. Google traite
+ces informations selon sa propre politique de confidentialité :
+https://policies.google.com/privacy. Nous n'avons accès qu'aux statistiques et rapports de plantage
+anonymisés que Google Play fournit à tous les développeurs.</p>
+<h2>7. Conservation et suppression</h2>
+<p>Les données restent sur votre appareil tant que vous ne les supprimez pas :</p>
+<ul>
+<li>supprimer un lien efface le lien, son mot de passe, ses documents et les données de ses bons d'achat ;</li>
+<li><em>Réglages → Effacer les documents téléchargés</em> efface tous les documents ;</li>
+<li>désinstaller l'application efface toutes ses données et ses clés de chiffrement.</li>
+</ul>
+<h2>8. Vos droits</h2>
+<p>Comme nous ne détenons aucune donnée vous concernant, nous ne pouvons ni y accéder, ni la
+rectifier, ni la transmettre. Vous gardez le contrôle complet de vos données dans l'application
+(voir la section 7). Pour toute question, écrivez-nous à l'adresse ci-dessous. Vous pouvez aussi
+adresser une réclamation à la CNIL (www.cnil.fr).</p>
+<h2>9. Enfants</h2>
+<p>L'application ne s'adresse pas aux enfants et ne collecte aucune donnée, y compris les leurs.</p>
+<h2>10. Modifications</h2>
+<p>Toute modification de cette politique sera publiée sur cette page, avec une nouvelle date de mise
+à jour.</p>
+<h2>Contact</h2>
+<p><a href="mailto:apps@mnz.ovh">apps@mnz.ovh</a></p></section>
+<hr>
+<section lang="en" id="en"><h1>Privacy policy — FastDoc and FastDoc Pro</h1>
+<p><em>Last updated: October 11, 2026</em></p>
+<p>This policy applies to the Android apps <strong>FastDoc</strong> (<code>ovh.mnz.fastdoc</code>) and <strong>FastDoc Pro</strong>
+(<code>ovh.mnz.fastdoc.pro</code>), published by their developer (contact: apps@mnz.ovh), "we" below.</p>
+<h2>Summary</h2>
+<ul>
+<li>FastDoc <strong>collects no personal data</strong>: we receive, store and share no information about you.</li>
+<li>Everything the app saves stays <strong>on your device</strong>, in its private storage, and most of it is
+  <strong>encrypted</strong>.</li>
+<li>The app contains <strong>no ads, no analytics, no tracking</strong> and no third-party crash reporting.</li>
+</ul>
+<h2>1. Data saved on your device</h2>
+<p>To work, the app keeps the following <strong>on your device only</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Purpose</th>
+<th>Protection</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Share links you add (address, name, options)</td>
+<td>Show your folders</td>
+<td>Encrypted with a key held in the device's secure hardware (Android Keystore)</td>
+</tr>
+<tr>
+<td>Passwords of protected links (Pro)</td>
+<td>Open those links</td>
+<td>Encrypted the same way</td>
+</tr>
+<tr>
+<td>Documents downloaded from your shares</td>
+<td>Reopen them quickly, and offline (Pro)</td>
+<td>App-private storage; encrypted for links with "Encrypt documents" turned on (Pro)</td>
+</tr>
+<tr>
+<td>Barcodes and security codes read from your vouchers, amount left, "archived" state</td>
+<td>Quick access at the till (voucher mode)</td>
+<td>Encrypted with the same key; read on the device, nothing is sent online</td>
+</tr>
+<tr>
+<td>Settings (lock, last watermark text)</td>
+<td>Remember your preferences</td>
+<td>App-private storage</td>
+</tr>
+</tbody>
+</table>
+<p>None of this is sent to us. It is <strong>excluded from Android cloud backups</strong> and from transfers to a
+new device.</p>
+<h2>2. Network connections</h2>
+<p>The app connects <strong>only</strong> to the storage service of the links you added (for example Infomaniak
+kDrive or pCloud), and only to read those shares. All connections are encrypted (HTTPS only).</p>
+<p>As with any Internet connection, that service receives your device's IP address and the app's name
+and version. Its own privacy policy covers that information:</p>
+<ul>
+<li>Infomaniak (kDrive): privacy policy published on www.infomaniak.com</li>
+<li>pCloud: privacy policy published on www.pcloud.com</li>
+</ul>
+<p>We run no server: the app never connects to us.</p>
+<h2>3. Biometrics (FastDoc Pro)</h2>
+<p>The fingerprint, face or PIN lock uses Android's authentication system. The app only receives the
+result (success or not): <strong>it never has access to your biometric data</strong>, which never leaves the
+device's secure hardware.</p>
+<h2>4. Sharing and saving copies</h2>
+<p>A document only leaves the app when <strong>you</strong> choose "Share" or "Save to device". It is then handed
+to the app or location you pick, whose privacy rules apply. Temporary copies made for sharing are
+deleted the next time the app starts.</p>
+<p>Likewise, a <strong>configuration file</strong> (<code>.fastdoc</code>) is only created when you choose "Share
+configuration". It holds the links you select and, if you choose to, their passwords and your
+voucher data. It is encrypted; with a password, only people who know it can open it. It never goes
+through our servers (we have none): you send it yourself, by the means of your choice.</p>
+<h2>5. Android permissions</h2>
+<table>
+<thead>
+<tr>
+<th>Permission</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Internet access, network state</td>
+<td>Read your shares; run the offline sync only when a network is available</td>
+</tr>
+<tr>
+<td>Biometrics (Pro)</td>
+<td>App lock</td>
+</tr>
+<tr>
+<td>Background work, device start-up (added by the WorkManager library)</td>
+<td>Keep "Available offline" folders up to date (Pro)</td>
+</tr>
+</tbody>
+</table>
+<p>The app does not access your contacts, location, camera, microphone or personal files.</p>
+<h2>6. Google Play</h2>
+<p>Downloading the app and buying FastDoc Pro go through Google Play. Google handles that information
+under its own privacy policy: https://policies.google.com/privacy. We only see the anonymized statistics
+and crash reports Google Play gives every developer.</p>
+<h2>7. Retention and deletion</h2>
+<p>Data stays on your device until you delete it:</p>
+<ul>
+<li>deleting a link erases the link, its password, its documents and its voucher data;</li>
+<li><em>Settings → Clear downloaded documents</em> erases all documents;</li>
+<li>uninstalling the app erases all its data and encryption keys.</li>
+</ul>
+<h2>8. Your rights</h2>
+<p>Since we hold no data about you, we have nothing to access, correct or hand over. You keep full
+control of your data in the app (see section 7). For any question, write to the address below. You
+may also lodge a complaint with your data protection authority (in France, the CNIL:
+www.cnil.fr).</p>
+<h2>9. Children</h2>
+<p>The app is not aimed at children and collects no data, theirs included.</p>
+<h2>10. Changes</h2>
+<p>Any change to this policy will be published on this page with a new update date.</p>
+<h2>Contact</h2>
+<p><a href="mailto:apps@mnz.ovh">apps@mnz.ovh</a></p></section>
+</main>
+</body>
+</html>
